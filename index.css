@@ -64,8 +64,15 @@
 }
 
 .work { 
-    height: 700px;
+    height: 1400px;
+    background-color: #0D0D0D;
     
+}
+
+.work h2 { 
+    padding-left: 40px;
+    padding-top: 32px;
+    color: white;
 }
 
 .grid { 
@@ -74,5 +81,116 @@
 }
 
 .grid img { 
-    height: 45%;
+    height: 300px;
+}
+
+.grid button {
+    background-color: #0D0D0D;
+    border: 2px solid white;
+    border-radius: 80px;
+    padding: 12px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.grid button:hover { 
+    background-color: #B6CCFE;
+}
+
+.g-col-6 { 
+    margin-top: 24px;
+}
+
+.hey-bestieimg  { 
+    border: 2px solid #0D0D0D;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 80px;
+    padding-left: 40px;
+    margin-left: 80px;
+    color: white;
+   
+   
+}
+
+.hey-bestie {
+    padding-left: 40px;
+    width: auto;
+    height: 600px;
+    padding-top: 80px;
+    border: 2px solid #0D0D0D;
+    margin-left: 100px;
+    color: white;
+}
+
+.travel {
+    
+    width: 40%;
+     margin-left: 88px;
+color: white;
+   
+    padding-top: 80px;
+    padding-left: 20px;
+    
+}
+
+.travel h3 { 
+    margin-top: 12px;
+    color: white;
+}
+
+.travel-img { 
+   width: 40%;
+   padding-top: 80px;
+   padding-left: 48px;
+    margin-top: 48px;
+    margin-left: 100px;
+    color: white;
+   
+
+   
+}
+
+.dept-ed { 
+    padding-left: 40px;
+    margin-top: 48px;
+    height: fit-content;
+}
+
+.dept-edtext { 
+    padding-top: 80px;
+    padding-left: 40px;
+    margin-top: 48px;
+}
+
+.dept-edtext p { 
+    width: 100%;
+}
+
+footer { 
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: #0D0D0D;
+    color: white;
+}
+
+footer p { 
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid purple;
+}
+
+.footer-logo h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.footer-social img { 
+    height: 24px;
 }
