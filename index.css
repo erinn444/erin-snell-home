@@ -1,0 +1,78 @@
+.top-nav { 
+  
+    background-color: #0D0D0D;
+    height: 100px;
+}
+
+.top-nav a { 
+    color: #B6CCFE;
+}
+
+.top-nav a:hover { 
+    color: white;
+}
+
+.hero { 
+    background-color: #0D0D0D;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo-img img { 
+    transform: translate(0px, -50px);
+    height: 35%;
+}
+
+.profile-img {
+   
+    height: fit-content;
+   transform: translate(-100px, 0px);
+}
+
+.profile-img img { 
+   
+    height: 480px;
+    
+}
+
+.hero-text {
+    color: white;
+    height: 500px;
+    width: 25%;
+    margin-top: 50px;
+    padding-top: 80px;
+    
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text p {
+    font-size: 24px;
+}
+
+.hero-text button { 
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 80px;
+    padding: 12px 20px;
+    margin-top: 18px;
+}
+
+.work { 
+    height: 700px;
+    
+}
+
+.grid { 
+    display: flex;
+    flex-direction: row;
+}
+
+.grid img { 
+    height: 45%;
+}
