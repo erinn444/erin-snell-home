@@ -114,6 +114,10 @@
    
 }
 
+.hey-bestieimg h3 { 
+    margin-top: 12px;
+}
+
 .hey-bestie {
     padding-left: 40px;
     width: auto;
@@ -122,6 +126,14 @@
     border: 2px solid #0D0D0D;
     margin-left: 100px;
     color: white;
+}
+
+.hey-bestie h3 { 
+    margin-top: 12px;
+}
+
+.hey-bestie p { 
+    width: 80%;
 }
 
 .travel {
@@ -168,6 +180,10 @@ color: white;
     width: 100%;
 }
 
+footer hr { 
+    border: white;
+}
+
 footer { 
     display: flex;
     flex-direction: row;
@@ -176,14 +192,24 @@ footer {
     color: white;
 }
 
+footer h1 { 
+    margin-left: 20px;
+}
+
+footer h6 { 
+    margin-left: 60px;
+    font-weight: lighter;
+}
+
 footer p { 
-    display: flex;
+  
+    width: 100%;
     text-align: center;
     font-size: 12px;
     font-weight: lighter;
-    align-items: center;
-    justify-content: flex-end;
-    border: 2px solid purple;
+    margin-left: 500px;
+    height: fit-content;
+    
 }
 
 .footer-logo h1 {
@@ -191,6 +217,30 @@ footer p {
     font-weight: bold;
 }
 
+.footer-logo img { 
+    height: 24px;
+    margin-left: 40px;
+}
+
 .footer-social img { 
     height: 24px;
+}
+
+.flex-column { 
+    align-items: flex-end;
+    margin-left: 800px;
+    height: fit-content;
+}
+
+.footer-nav { 
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.footer-nav a { 
+    color: #B6CCFE;
+}
+
+.footer-nav a:hover { 
+    color: white;
 }
